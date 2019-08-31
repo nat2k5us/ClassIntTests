@@ -11,7 +11,6 @@ namespace ClassIntTests
 
         public MySimpleStruct(int dummy)
         {
-
         }
         // ~MySimpleStruct()
         // {
