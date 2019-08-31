@@ -51,8 +51,6 @@ namespace ClassIntTests
         ~Foo()
         {
             System.Console.WriteLine($"In Foo destructor");
-
-
             // A Destructor is unique to its class i.e. there cannot be more than one destructor in a class.
             // A Destructor has no return type and has exactly the same name as the class name (Including the same case).
             // It is distinguished apart from a constructor because of the Tilde symbol (~) prefixed to its name.
@@ -74,16 +72,12 @@ namespace ClassIntTests
         {
             System.Console.WriteLine($"In Bar destructor");
         }
-
-
     }
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             var bar = new Bar();
-
             StaticClassTest.Test();
         }
     }
